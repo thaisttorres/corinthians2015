@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family:'Montserrat', sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.uniforme:hover{
+    color: rgb(247, 247, 95);
+    border: 3px solid rgb(247, 247, 95);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+}
+.uniforme{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.rodape{
+    width:30px;
+    float:right;
+    margin-top: 80px;
+}
+
+footer{
+    font-style: italic;
+    margin-top: 70px;
+    margin-bottom: auto;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

@@ -1,0 +1,71 @@
+h1{
+ font-size: 20px;
+ color: white;
+ text-align: center;
+ font-family:'Montserrat', sans-serif;
+} 
+.posicoes {
+    color: rgb(255, 255, 255);
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+    border-color: rgb(247, 247, 95);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    border-style: outset;
+}
+.bodyElenco{
+    background-color: black;
+    font-size: 10px;
+}
+ul{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    list-style-type: circle;
+}
+li{
+    font-family:'Montserrat', sans-serif;
+    font-size: 17px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: fit-content;
+}
+li:hover{
+    border: 3px solid rgb(247, 247, 95);
+    padding: 5px;
+}
+li:active {
+    background-color: red;
+  }
+  div.teste::after{
+    background-image: url(https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png);
+    content: "";
+    background-position: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-repeat: no-repeat; 
+  }
+  a{
+    float:right;
+    padding: 3px;
+}
+footer{
+    text-align: center;
+    color: darkgrey;
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.rodape{
+    width:30px;
+    padding: 0 0; 
+    float:right;
+    margin-bottom: 5px;
+}
